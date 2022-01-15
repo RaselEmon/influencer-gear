@@ -23,11 +23,16 @@ body{
     right: 74.79%;
 
 
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 6px;
+
+}
+.menu h1{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+
 }
 
 
@@ -58,8 +63,10 @@ line-height: 6px;
 }
 #img-2{
     position: absolute;
-    top: 211px;
+    top: 200px;
     transition: 2s;
+    height: 400px;
+    width: 450px;
 }
 .header-info h1{
     font-size: 50px;
@@ -291,78 +298,47 @@ h5 {
     }
 
     /* nav-bar media queries */
-    .nav-right {
-        right: 0;
-    }
+   
+.menus{
 
-    .nav-main .nav-left img {
-        width: 100px;
-        height: 50px;
-        margin-left: 20px;
-    }
-
-    .nav-right ul {
-        position: static;
-        display: none;
-    }
-
-    .nav-right li {
-        margin-bottom: 1px;
-    }
-
-    .nav-right ul li,
-    li a {
-        width: 100%;
-    }
-
-    .nav-right li a {
-        padding: 5px 0px;
-        color: white;
-    }
-
-    .show-menu {
-        display: block;
-        margin-top: 5px;
-        background: none;
-    }
-
-    .menu-bar {
-        margin-left: 150px;
-    }
-
-    input[type=checkbox]:checked~#menu {
-        display: block;
-        margin-right: 45px;
-        background: var(--main-color);
-    }
-
+    width: 100%;
+    
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
 
     /* hero-section media queries */
-    .hero-main {
+    .header-section {
         flex-direction: column;
         padding: 0px 50px;
     }
 
-    .hero-left {
+    .header-info {
         padding-right: 0px;
         order: 2;
     }
 
-    .hero-left h1 {
+    .header-info h1 {
         font-size: 24px;
         line-height: 30px;
     }
 
-    .hero-left p {
+    .header-info p {
         font-size: 15px;
     }
 
-    .hero-right {
+    .header-img {
         order: 1;
     }
 
-    .hero-right img {
+    .header-img img {
         width: 100%;
+    }
+    #img-2 {
+        
+        padding-bottom: 100px;
+        height: 400px;
+    width: 420px;
     }
 
     /* brands-section media queries */
